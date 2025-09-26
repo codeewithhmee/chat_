@@ -126,9 +126,7 @@
         transition: all 0.3s ease;
       }
       @media (max-width: 500px) {
-        *{
-          overflow: hidden;
-        }
+      
         body{
           overflow: hidden;
 
@@ -136,7 +134,8 @@
         .box {
           width: 90%;
           min-height: 200px;
-          max-height: 500px;
+          max-height: 400px;
+          overflow-y: auto;
         }
         .saveBtn{
           margin: 2px;
